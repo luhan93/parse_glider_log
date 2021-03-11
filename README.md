@@ -1,0 +1,2 @@
+# Parse gps locations and water velocities from the glider log files
+Gps locations and water velocities are usually stored in the dbd/sbd files. However, the gps locations were not properly stored in The pyglider module (pyglider.py) was obtained from the glider_track package (https://github.com/luhan93/glider-tracks), created by Sara Haines. I further added a new functions to access the required information, in this case the gps location and water velocities.
